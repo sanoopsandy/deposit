@@ -19,6 +19,7 @@
   * This PHP file uses the Slim Framework to construct a REST API.
   * See Cloudant.php for the database functionality
   */
+ echo 'Saurabh';
 require 'vendor/autoload.php';
 require_once('./Cloudant.php');
 $app = new \Slim\Slim();
