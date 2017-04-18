@@ -14,7 +14,8 @@ $output = file_get_contents($authUrl);
 echo "<pre>";
 $token = json_decode($output)[0]->token;
 
-$OTP=000000
+// $OTP=000000
+print_r($token);
 
 /*Token*/
 function geToken($clientID, $participant_code){
