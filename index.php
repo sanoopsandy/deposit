@@ -31,7 +31,7 @@ try {
  }
 $app->get('/', function () {
   global $app;
-    $app->render('index.html');
+    $app->render('random.php');
 });
 $app->get('/api/visitors', function () {
   global $app;

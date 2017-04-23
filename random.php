@@ -34,7 +34,6 @@ try {
   	$resp = $sag->put('deposit_data', $response);
   }
 }
-
 echo $bodyJson;
 
 ?>
